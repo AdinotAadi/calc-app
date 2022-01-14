@@ -5,3 +5,18 @@
     padding: 0;
     font-family: "Ubuntu", "Open Sans", "Roboto";
 }
+
+.calculator {
+    background-color: #101010;
+    width: 25em;
+    margin: 5em auto;
+}
+
+.display {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    height: 6em;
+}
