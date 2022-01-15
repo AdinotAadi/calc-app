@@ -1,6 +1,6 @@
 {
-    "name": "Awesome Calculator",
-    "short_name": "Calculator",
+    "name": "Calc-App",
+    "short_name": "Calc-App",
     "icons": [
       {
         "src": "./assets/icon-192.png",
@@ -21,7 +21,7 @@
     ],
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
-    "start_url": "/calculator-app/",
+    "start_url": "/calc-app/",
     "display": "standalone",
     "orientation": "portrait"
 }
