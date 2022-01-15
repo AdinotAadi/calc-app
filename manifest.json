@@ -23,5 +23,5 @@
     "background_color": "#FFFFFF",
     "start_url": "/calc-app/",
     "display": "standalone",
-    "orientation": "portrai"
+    "orientation": "portrait"
 }
