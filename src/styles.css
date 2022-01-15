@@ -51,18 +51,21 @@
   transform: translateY(0.2em)
 }
 
-.controls .orange {
+.controls .blue {
   background: #118ab2;
 }
 
-.controls .orange:hover {
+.controls .blue:hover {
   background: #ff7d00;
 }
 
-.label {
-    display: flex;
-    height: 100%;
-    width: 100%;
+.controls .none {
+    background-color: transparent;
+    color: transparent;
+}
+
+.controls .none:hover {
+    background-color: transparent;
 }
 
 @media screen and (max-width: 768px) {
