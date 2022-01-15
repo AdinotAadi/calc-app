@@ -1,47 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calc-app</title>
-    <link rel="stylesheet" href="src/styles.css">
+    <title>Calc App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./assets/icon-192.png">
+    <link rel="manifest" href="./manifest.json">
     <script>
-        // Check that service workers are supported
-        if ('serviceWorker' in navigator) {
-          // Use the window load event to keep the page load performant
-          window.addEventListener('load', () => {
-            navigator.serviceWorker.register('./sw.js');
-          });
-        }
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js');
+        });
+      }
     </script>
-        
-</head>
-<body>
+  </head>
+  <body>
     <div class="calculator">
-        <div class="display"></div>
-        <div class="controls">
-            <button class="blue" style="width: 187%;">C</button>
-            <button class="none">C</button>
-            <button class="blue">%</button>
-            <button class="blue">+</button>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="blue">-</button>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="blue">X</button>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="blue">÷</button>
-            <button>0</button>
-            <button class="blue">.</button>
-            <button class="blue" style="width: 187%;">=</button>
-        </div>
+      <div class="display"></div>
+      <div class="controls">
+        <button class="blue" style="width: 187%;">C</button>
+        <button class="none">C</button>
+        <button class="blue">%</button>
+        <button class="blue">+</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="blue">-</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="blue">X</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="blue">÷</button>
+        <button>0</button>
+        <button class="blue">.</button>
+        <button class="blue" style="width: 187%;">=</button>
+      </div>
     </div>
-    <script src="src/app.js"></script>
-</body>
+    <script src="./app.js"></script>
+  </body>
 </html>
