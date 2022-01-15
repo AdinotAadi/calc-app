@@ -5,7 +5,7 @@
     padding: 0;
     font-family: 'Ubuntu', 'Roboto','Open Sans';
     font-weight: bold;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 
 .calculator {
@@ -33,7 +33,7 @@
 }
 
 .controls button {
-    background: #ffd100;
+    background: #a2d2ff;
     color: #fff;
     height: 5.5em;
     cursor: pointer;
@@ -51,12 +51,18 @@
   transform: translateY(0.2em)
 }
 
-.controls .teal {
-  background: #eb5e28;
+.controls .orange {
+  background: #118ab2;
 }
 
-.controls .teal:hover {
+.controls .orange:hover {
   background: #ff7d00;
+}
+
+.label {
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
